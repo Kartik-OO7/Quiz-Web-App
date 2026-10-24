@@ -65,15 +65,3 @@ app.js       Questions, components and app logic
   explanation: "Why this answer is correct."
 }
 ```
-
-**Change the time per question:** edit `TIME_PER_QUESTION` in `app.js`.
-
-## Reset best score
-
-Open the browser console (`F12`) and run:
-
-```js
-localStorage.removeItem("dsa-quiz-best")
-```
-
-Then refresh the page.
